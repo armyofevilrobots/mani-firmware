@@ -1,0 +1,14 @@
+local cfg = {
+  MODE = "AP", -- or "STATION" for home use
+  SSID = "YOUR_HOME_SSID",
+  AP_SSID = "MANI-CONTROLLER",
+  SSID_PASSWORD = "YOUR_HOME_PSK",
+  AP_PASSWORD = "YOUR_MANI_PSK",
+  AP_GW = "192.168.1.1", -- GW to use for your AP
+  AP_DHCP_START="172.24.16.100", 
+  AP_IP="172.24.16.1",
+  AP_NETMASK="255.255.255.0",
+  HOSTNAME="aoer-truck-racklights"  -- Will be announced via mDNS
+}
+
+return cfg
